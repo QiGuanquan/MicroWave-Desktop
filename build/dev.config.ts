@@ -2,7 +2,7 @@ import path from 'path'
 
 const devConfig = {
   host: 'localhost',
-  port: 8080,
+  port: 8088,
   mainSource: path.resolve(__dirname, '../app/electron'),
   rendererSource: path.resolve(__dirname, '../app/src'),
   template: path.resolve(__dirname, '../app/src/index.html'),
